@@ -8,26 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		181624771EDF35540038A4F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181624761EDF35540038A4F5 /* AppDelegate.swift */; };
-		181624791EDF35540038A4F5 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 181624781EDF35540038A4F5 /* GameScene.sks */; };
-		1816247B1EDF35540038A4F5 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1816247A1EDF35540038A4F5 /* Actions.sks */; };
 		1816247D1EDF35540038A4F5 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1816247C1EDF35540038A4F5 /* GameScene.swift */; };
 		1816247F1EDF35540038A4F5 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1816247E1EDF35540038A4F5 /* GameViewController.swift */; };
 		181624821EDF35540038A4F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181624801EDF35540038A4F5 /* Main.storyboard */; };
 		181624841EDF35540038A4F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181624831EDF35540038A4F5 /* Assets.xcassets */; };
 		181624871EDF35540038A4F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181624851EDF35540038A4F5 /* LaunchScreen.storyboard */; };
+		181624951EDF39570038A4F5 /* background-music-aac.caf in Resources */ = {isa = PBXBuildFile; fileRef = 181624931EDF39570038A4F5 /* background-music-aac.caf */; };
+		181624961EDF39570038A4F5 /* pew-pew-lei.caf in Resources */ = {isa = PBXBuildFile; fileRef = 181624941EDF39570038A4F5 /* pew-pew-lei.caf */; };
+		182CEFF81EE08AD700A91B2A /* VectorMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182CEFF71EE08AD700A91B2A /* VectorMath.swift */; };
+		182CEFFA1EE0AB3A00A91B2A /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182CEFF91EE0AB3A00A91B2A /* GameOverScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		181624731EDF35530038A4F5 /* NinjaHiya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NinjaHiya.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		181624761EDF35540038A4F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		181624781EDF35540038A4F5 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		1816247A1EDF35540038A4F5 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		1816247C1EDF35540038A4F5 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		1816247E1EDF35540038A4F5 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		181624811EDF35540038A4F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		181624831EDF35540038A4F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		181624861EDF35540038A4F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		181624881EDF35540038A4F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181624931EDF39570038A4F5 /* background-music-aac.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "background-music-aac.caf"; sourceTree = "<group>"; };
+		181624941EDF39570038A4F5 /* pew-pew-lei.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pew-pew-lei.caf"; sourceTree = "<group>"; };
+		182CEFF71EE08AD700A91B2A /* VectorMath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VectorMath.swift; sourceTree = "<group>"; };
+		182CEFF91EE0AB3A00A91B2A /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,17 +64,27 @@
 		181624751EDF35530038A4F5 /* NinjaHiya */ = {
 			isa = PBXGroup;
 			children = (
+				181624921EDF39570038A4F5 /* Sounds */,
 				181624761EDF35540038A4F5 /* AppDelegate.swift */,
-				181624781EDF35540038A4F5 /* GameScene.sks */,
-				1816247A1EDF35540038A4F5 /* Actions.sks */,
 				1816247C1EDF35540038A4F5 /* GameScene.swift */,
+				182CEFF91EE0AB3A00A91B2A /* GameOverScene.swift */,
 				1816247E1EDF35540038A4F5 /* GameViewController.swift */,
+				182CEFF71EE08AD700A91B2A /* VectorMath.swift */,
 				181624801EDF35540038A4F5 /* Main.storyboard */,
 				181624831EDF35540038A4F5 /* Assets.xcassets */,
 				181624851EDF35540038A4F5 /* LaunchScreen.storyboard */,
 				181624881EDF35540038A4F5 /* Info.plist */,
 			);
 			path = NinjaHiya;
+			sourceTree = "<group>";
+		};
+		181624921EDF39570038A4F5 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				181624931EDF39570038A4F5 /* background-music-aac.caf */,
+				181624941EDF39570038A4F5 /* pew-pew-lei.caf */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,11 +147,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				181624951EDF39570038A4F5 /* background-music-aac.caf in Resources */,
 				181624821EDF35540038A4F5 /* Main.storyboard in Resources */,
-				181624791EDF35540038A4F5 /* GameScene.sks in Resources */,
 				181624841EDF35540038A4F5 /* Assets.xcassets in Resources */,
+				181624961EDF39570038A4F5 /* pew-pew-lei.caf in Resources */,
 				181624871EDF35540038A4F5 /* LaunchScreen.storyboard in Resources */,
-				1816247B1EDF35540038A4F5 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +162,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				182CEFFA1EE0AB3A00A91B2A /* GameOverScene.swift in Sources */,
+				182CEFF81EE08AD700A91B2A /* VectorMath.swift in Sources */,
 				1816247D1EDF35540038A4F5 /* GameScene.swift in Sources */,
 				1816247F1EDF35540038A4F5 /* GameViewController.swift in Sources */,
 				181624771EDF35540038A4F5 /* AppDelegate.swift in Sources */,
@@ -316,6 +332,7 @@
 				1816248D1EDF35540038A4F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
